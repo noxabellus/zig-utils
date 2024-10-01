@@ -12,6 +12,11 @@ pub fn build(b: *std.Build) !void {
         .optimize = optimize,
     });
 
+    const ansi_utils = b.dependency("ZigAnsiUtils", .{
+        .target = target,
+        .optimize = optimize,
+    });
+
     const build_utils = b.dependency("ZigBuildUtils", .{
         .target = target,
         .optimize = optimize,
@@ -48,6 +53,7 @@ pub fn build(b: *std.Build) !void {
         .optimize = optimize,
     });
 
+    mod.addImport("ZigAnsiUtils", ansi_utils.module("ZigAnsiUtils"));
     mod.addImport("ZigBuildUtils", build_utils.module("ZigBuildUtils"));
     mod.addImport("ZigExternUtils", extern_utils.module("ZigExternUtils"));
     mod.addImport("ZigMiscUtils", misc_utils.module("ZigMiscUtils"));
