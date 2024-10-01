@@ -1,0 +1,3 @@
+[submodule "zig-build-utils"]
+	path = zig-build-utils
+	url = https://github.com/noxabellus/zig-build-utils
