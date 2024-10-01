@@ -2,6 +2,7 @@
 
 All of my zig-utils in one place
 
++ [zig-ansi-utils](https://github.com/noxabellus/zig-ansi-utils)
 + [zig-build-utils](https://github.com/noxabellus/zig-build-utils)
 + [zig-extern-utils](https://github.com/noxabellus/zig-extern-utils)
 + [zig-misc-utils](https://github.com/noxabellus/zig-misc-utils)
