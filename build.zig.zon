@@ -2,6 +2,11 @@
     .name = "zig-utils",
     .version = "0.1.0",
     .dependencies = .{
+        .ZigBuildUtils = .{
+            .url = "https://github.com/noxabellus/zig-build-utils/archive/36e5576466d36e727697690d1675142b832fa725.tar.gz",
+            .hash = "122073940926ba27ab867f58db440abad63fead532e885d2036f7f830b3442ba944a",
+        },
+
         .ZigExternUtils = .{
             .url = "https://github.com/noxabellus/zig-extern-utils/archive/587b5b6ccb736b5ce0c2605632e8a2604f72b13f.tar.gz",
             .hash = "12205025d559bfb72efe00e6df9e24e1745adc05290b2ce4255f989ae2325b7e8de1",

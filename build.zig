@@ -1,16 +1,10 @@
 const std = @import("std");
 
-const ZigBuildUtils = @import("zig-build-utils/build.zig");
-
-pub const BuildUtils = ZigBuildUtils.Module;
-
 pub const Module = @import("src/root.zig");
 
 pub fn build(b: *std.Build) !void {
     const target = b.standardTargetOptions(.{});
     const optimize = b.standardOptimizeOption(.{});
-
-    try ZigBuildUtils.buildSub(b, b.path("zig-build-utils"), target, optimize);
 
     const mod = b.addModule("ZigUtils", .{
         .target = target,
