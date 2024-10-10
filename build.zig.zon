@@ -3,28 +3,28 @@
     .version = "0.1.0",
     .dependencies = .{
         .ZigAnsiUtils = .{
-            .url = "https://github.com/noxabellus/zig-ansi-utils/archive/f1d076138038446dffc11e912ca124f18f63d309.tar.gz",
-            .hash = "1220d30b50f6d58407541afbef9b592df4bc6d5bb8615f3f4efc1f6ea24e76ab0689",
+            .url = "https://github.com/noxabellus/zig-ansi-utils/archive/333c838b6e96e6b4c86ad39fdf969f04cab13862.tar.gz",
+            .hash = "12207c674f5e079cd46a3d0aa4fd1baec3c0b79d3ef590c6a3238553d53a1aed648e",
         },
         .ZigBuildUtils = .{
-            .url = "https://github.com/noxabellus/zig-build-utils/archive/feef0c73e169cf74778dcb4e5f2e8f0a148b52a0.tar.gz",
-            .hash = "1220acf334161a1304bfb07974404b9b34af516c99b0b7dfa6b9932199796f4a452a",
+            .url = "https://github.com/noxabellus/zig-build-utils/archive/db84dd2e18b595d2f23d40c4df56f2a430cb2942.tar.gz",
+            .hash = "12209e1ce53381a667ce175166dadfe14d415214188b59d96bfd8c7ec315bdb463b9",
         },
         .ZigExternUtils = .{
-            .url = "https://github.com/noxabellus/zig-extern-utils/archive/587b5b6ccb736b5ce0c2605632e8a2604f72b13f.tar.gz",
-            .hash = "12205025d559bfb72efe00e6df9e24e1745adc05290b2ce4255f989ae2325b7e8de1",
+            .url = "https://github.com/noxabellus/zig-extern-utils/archive/9d4a60d974baad39b2ba3c899629e5f0ccd61f21.tar.gz",
+            .hash = "1220314035ec27c7ea6a985b20b7250ee63dbc83f032222e5cf008b77849c735a719",
         },
         .ZigMiscUtils = .{
-            .url = "https://github.com/noxabellus/zig-misc-utils/archive/dcb2f9e95f81c000b64cb6c3f77335edb59fa3aa.tar.gz",
-            .hash = "122065fce006be3a625c928de8ce0de61c4b3aa9462bf4185b563b02d74b6597cb77",
+            .url = "https://github.com/noxabellus/zig-misc-utils/archive/051d1f114e85e9faa502e8031cb43a2337794ffc.tar.gz",
+            .hash = "1220cf085a73305bde7850fdd06d5aaa6fa8deed044acd3bf16184db87f34389d8cf",
         },
         .ZigTextUtils = .{
-            .url = "https://github.com/noxabellus/zig-text-utils/archive/6e993b117d3815a9ff966ce81d730c9ea9b20dd3.tar.gz",
-            .hash = "12203aee906d0a12ca91875b067ce4e71a2bdd197309eb2a0792ae4aaa37629ac8f2",
+            .url = "https://github.com/noxabellus/zig-text-utils/archive/ffefac333282085e8624af946c1f062b011cb30f.tar.gz",
+            .hash = "1220274decfed4e7c2c4154764b0c7e1d989736bced3bfb4cd49917b218736275054"
         },
         .ZigTypeUtils = .{
-            .url = "https://github.com/noxabellus/zig-type-utils/archive/e218bf71c2519edfe5528ce3c50abf1f0657f955.tar.gz",
-            .hash = "1220782a3a23a54e1343fe991efbb83c2e0fa8f8509c50e5a55fb5260edb07c598b1",
+            .url = "https://github.com/noxabellus/zig-type-utils/archive/f3eda63a7e6e955c8ad1d8a7014aee3551946f23.tar.gz",
+            .hash = "122035ae3469f2f76d7e56d982f0df327553c7e1a4e39cd9cfba35522ea102cd2f6d",
         },
     },
     .paths = .{
