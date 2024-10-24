@@ -7,16 +7,16 @@
             .hash = "12207c674f5e079cd46a3d0aa4fd1baec3c0b79d3ef590c6a3238553d53a1aed648e",
         },
         .ZigBuildUtils = .{
-            .url = "https://github.com/noxabellus/zig-build-utils/archive/db84dd2e18b595d2f23d40c4df56f2a430cb2942.tar.gz",
-            .hash = "12209e1ce53381a667ce175166dadfe14d415214188b59d96bfd8c7ec315bdb463b9",
+            .url = "https://github.com/noxabellus/zig-build-utils/archive/bf06f7d18b33e47c1e4941d5c2fbfb08de2bab78.tar.gz",
+            .hash = "12202938b338b93eae812fdc21abe766c7fee5f7fa54590fdac2213eae1190ce0a8b",
         },
         .ZigExternUtils = .{
             .url = "https://github.com/noxabellus/zig-extern-utils/archive/9d4a60d974baad39b2ba3c899629e5f0ccd61f21.tar.gz",
             .hash = "1220314035ec27c7ea6a985b20b7250ee63dbc83f032222e5cf008b77849c735a719",
         },
         .ZigMiscUtils = .{
-            .url = "https://github.com/noxabellus/zig-misc-utils/archive/051d1f114e85e9faa502e8031cb43a2337794ffc.tar.gz",
-            .hash = "1220cf085a73305bde7850fdd06d5aaa6fa8deed044acd3bf16184db87f34389d8cf",
+            .url = "https://github.com/noxabellus/zig-misc-utils/archive/a0c9ade5fc35feaff875b2e85acdf868cbb30375.tar.gz",
+            .hash = "12207843b3db44f2450cbe7831207a0922202bcba4af02716543ad5d64990f14c66e",
         },
         .ZigTextUtils = .{
             .url = "https://github.com/noxabellus/zig-text-utils/archive/ffefac333282085e8624af946c1f062b011cb30f.tar.gz",
